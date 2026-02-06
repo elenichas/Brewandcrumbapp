@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { SearchBar } from '../components/SearchBar';
-import { coffeeItems, bakeryItems, giftItems } from '../data/menuData';
+import { coffeeItems, bakeryItems, giftItems, teaItems } from '../data/menuData';
 import { motion } from 'motion/react';
 import { ChevronRight, Coffee, Sparkles } from 'lucide-react';
 
@@ -55,12 +55,12 @@ export function HomePage() {
           <div className="flex items-center justify-between mb-4">
             <h2 className="text-xl flex items-center gap-2">
               <Coffee className="size-5 text-[#1a5c2e]" aria-hidden="true" />
-              Coffee
+              Drinks Menu
             </h2>
             <Link 
               to="/menu/coffee" 
               className="text-[#1a5c2e] flex items-center gap-1 text-sm hover:underline group"
-              aria-label="View all coffee items"
+              aria-label="View all drinks"
             >
               View all
               <ChevronRight className="size-4 group-hover:translate-x-1 transition-transform" aria-hidden="true" />

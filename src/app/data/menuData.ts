@@ -1,6 +1,7 @@
 import { MenuItem } from '../context/AppContext';
 
 export const coffeeItems: MenuItem[] = [
+  // Hot Coffee
   {
     id: 'coffee-1',
     name: 'Freshly roasted cappuccino',
@@ -8,6 +9,7 @@ export const coffeeItems: MenuItem[] = [
     price: 3.50,
     image: 'https://images.unsplash.com/photo-1643909618082-d916d591c2a2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjYXBwdWNjaW5vJTIwYXJ0JTIwZm9hbXxlbnwxfHx8fDE3NzAzNzQwMDd8MA&ixlib=rb-4.1.0&q=80&w=1080',
     category: 'coffee',
+    subcategory: 'hot coffee',
     allergens: ['milk'],
     tag: 'buy again',
     sizes: [
@@ -23,25 +25,12 @@ export const coffeeItems: MenuItem[] = [
     price: 4.00,
     image: 'https://images.unsplash.com/photo-1587663939437-9f9f1e8c9f82?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxpY2VkJTIwY29mZmVlJTIwY29sZCUyMGJyZXd8ZW58MXx8fHwxNzcwMzc0MDA5fDA&ixlib=rb-4.1.0&q=80&w=1080',
     category: 'coffee',
+    subcategory: 'hot coffee',
     allergens: ['milk'],
     sizes: [
       { name: 'Small', price: 4.00 },
       { name: 'Medium', price: 5.00 },
       { name: 'Large', price: 6.00 }
-    ]
-  },
-  {
-    id: 'coffee-3',
-    name: 'Iced coffee',
-    description: 'Refreshing cold brew coffee served over ice, perfect for warm days',
-    price: 4.50,
-    image: 'https://images.unsplash.com/photo-1587663939437-9f9f1e8c9f82?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxpY2VkJTIwY29mZmVlJTIwY29sZCUyMGJyZXd8ZW58MXx8fHwxNzcwMzc0MDA5fDA&ixlib=rb-4.1.0&q=80&w=1080',
-    category: 'coffee',
-    tag: 'weekly offer',
-    sizes: [
-      { name: 'Small', price: 4.50 },
-      { name: 'Medium', price: 5.50 },
-      { name: 'Large', price: 6.50 }
     ]
   },
   {
@@ -51,6 +40,7 @@ export const coffeeItems: MenuItem[] = [
     price: 4.25,
     image: 'https://images.unsplash.com/photo-1666196389175-630e3b80ad91?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxGaWxpcGlubyUyMGJhcmFrbyUyMGNvZmZlZXxlbnwxfHx8fDE3NzAzNzYxMTh8MA&ixlib=rb-4.1.0&q=80&w=1080',
     category: 'coffee',
+    subcategory: 'hot coffee',
     tag: 'almost sold out',
     sizes: [
       { name: 'Small', price: 4.25 },
@@ -65,6 +55,7 @@ export const coffeeItems: MenuItem[] = [
     price: 5.00,
     image: 'https://images.unsplash.com/photo-1667592157310-2fea7127ce8b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx1YmUlMjBsYXR0ZSUyMHB1cnBsZXxlbnwxfHx8fDE3NzAzNzYxMTl8MA&ixlib=rb-4.1.0&q=80&w=1080',
     category: 'coffee',
+    subcategory: 'hot coffee',
     allergens: ['milk'],
     tag: 'buy again',
     sizes: [
@@ -80,22 +71,10 @@ export const coffeeItems: MenuItem[] = [
     price: 3.25,
     image: 'https://images.unsplash.com/photo-1705952285570-113e76f63fb0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxlc3ByZXNzbyUyMHNob3R8ZW58MXx8fHwxNzcwMzc2MTE5fDA&ixlib=rb-4.1.0&q=80&w=1080',
     category: 'coffee',
+    subcategory: 'hot coffee',
     sizes: [
       { name: 'Single', price: 2.50 },
       { name: 'Double', price: 3.25 }
-    ]
-  },
-  {
-    id: 'coffee-7',
-    name: 'Vietnamese-style Coffee',
-    description: 'Strong coffee with sweetened condensed milk, served hot or over ice. A Southeast Asian classic!',
-    price: 4.75,
-    image: 'https://images.unsplash.com/photo-1558722141-76ef6ca013be?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx2aWV0bmFtZXNlJTIwaWNlZCUyMGNvZmZlZXxlbnwxfHx8fDE3NzAzMjE5NTB8MA&ixlib=rb-4.1.0&q=80&w=1080',
-    category: 'coffee',
-    allergens: ['milk'],
-    sizes: [
-      { name: 'Small', price: 4.75 },
-      { name: 'Large', price: 6.00 }
     ]
   },
   {
@@ -105,6 +84,7 @@ export const coffeeItems: MenuItem[] = [
     price: 4.75,
     image: 'https://images.unsplash.com/photo-1619286310410-a95de97b0aec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2NoYSUyMGNob2NvbGF0ZSUyMGNvZmZlZXxlbnwxfHx8fDE3NzAyOTAzMzd8MA&ixlib=rb-4.1.0&q=80&w=1080',
     category: 'coffee',
+    subcategory: 'hot coffee',
     allergens: ['milk', 'soy'],
     sizes: [
       { name: 'Small', price: 4.75 },
@@ -119,31 +99,11 @@ export const coffeeItems: MenuItem[] = [
     price: 4.25,
     image: 'https://images.unsplash.com/photo-1727080409436-356bdc609899?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmbGF0JTIwd2hpdGUlMjBjb2ZmZWV8ZW58MXx8fHwxNzcwMzQwMzMzfDA&ixlib=rb-4.1.0&q=80&w=1080',
     category: 'coffee',
+    subcategory: 'hot coffee',
     allergens: ['milk'],
     sizes: [
       { name: 'Small', price: 4.25 },
       { name: 'Large', price: 5.50 }
-    ]
-  },
-  {
-    id: 'coffee-10',
-    name: 'Affogato',
-    description: 'A scoop of vanilla ice cream "drowned" in a shot of hot espresso. The perfect dessert coffee!',
-    price: 5.50,
-    image: 'https://images.unsplash.com/photo-1562037408-d1b741ccd19b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhZmZvZ2F0byUyMGljZSUyMGNyZWFtJTIwZXNwcmVzc298ZW58MXx8fHwxNzcwMzc2MTIwfDA&ixlib=rb-4.1.0&q=80&w=1080',
-    category: 'coffee',
-    allergens: ['milk', 'eggs']
-  },
-  {
-    id: 'coffee-11',
-    name: 'Cold Brew',
-    description: 'Smooth, less acidic coffee steeped for 16 hours. Refreshing and full of flavor',
-    price: 4.50,
-    image: 'https://images.unsplash.com/photo-1678174472163-543b1704eb24?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb2xkJTIwYnJldyUyMGNvZmZlZSUyMGJvdHRsZXxlbnwxfHx8fDE3NzAzNzYxMzV8MA&ixlib=rb-4.1.0&q=80&w=1080',
-    category: 'coffee',
-    sizes: [
-      { name: 'Small', price: 4.50 },
-      { name: 'Large', price: 6.00 }
     ]
   },
   {
@@ -153,10 +113,217 @@ export const coffeeItems: MenuItem[] = [
     price: 3.25,
     image: 'https://images.unsplash.com/photo-1663683462505-c12f9445d2aa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhbWVyaWNhbm8lMjBibGFjayUyMGNvZmZlZXxlbnwxfHx8fDE3NzAyNjM0OTR8MA&ixlib=rb-4.1.0&q=80&w=1080',
     category: 'coffee',
+    subcategory: 'hot coffee',
     sizes: [
       { name: 'Small', price: 3.25 },
       { name: 'Medium', price: 4.00 },
       { name: 'Large', price: 4.75 }
+    ]
+  },
+  // Iced Coffee
+  {
+    id: 'coffee-3',
+    name: 'Iced coffee',
+    description: 'Refreshing cold brew coffee served over ice, perfect for warm days',
+    price: 4.50,
+    image: 'https://images.unsplash.com/photo-1587663939437-9f9f1e8c9f82?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxpY2VkJTIwY29mZmVlJTIwY29sZCUyMGJyZXd8ZW58MXx8fHwxNzcwMzc0MDA5fDA&ixlib=rb-4.1.0&q=80&w=1080',
+    category: 'coffee',
+    subcategory: 'iced coffee',
+    tag: 'weekly offer',
+    sizes: [
+      { name: 'Small', price: 4.50 },
+      { name: 'Medium', price: 5.50 },
+      { name: 'Large', price: 6.50 }
+    ]
+  },
+  {
+    id: 'coffee-7',
+    name: 'Vietnamese-style Coffee',
+    description: 'Strong coffee with sweetened condensed milk, served hot or over ice. A Southeast Asian classic!',
+    price: 4.75,
+    image: 'https://images.unsplash.com/photo-1558722141-76ef6ca013be?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx2aWV0bmFtZXNlJTIwaWNlZCUyMGNvZmZlZXxlbnwxfHx8fDE3NzAzMjE5NTB8MA&ixlib=rb-4.1.0&q=80&w=1080',
+    category: 'coffee',
+    subcategory: 'iced coffee',
+    allergens: ['milk'],
+    sizes: [
+      { name: 'Small', price: 4.75 },
+      { name: 'Large', price: 6.00 }
+    ]
+  },
+  {
+    id: 'coffee-10',
+    name: 'Affogato',
+    description: 'A scoop of vanilla ice cream "drowned" in a shot of hot espresso. The perfect dessert coffee!',
+    price: 5.50,
+    image: 'https://images.unsplash.com/photo-1562037408-d1b741ccd19b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhZmZvZ2F0byUyMGljZSUyMGNyZWFtJTIwZXNwcmVzc298ZW58MXx8fHwxNzcwMzc2MTIwfDA&ixlib=rb-4.1.0&q=80&w=1080',
+    category: 'coffee',
+    subcategory: 'iced coffee',
+    allergens: ['milk', 'eggs']
+  },
+  // Cold Brew
+  {
+    id: 'coffee-11',
+    name: 'Cold Brew',
+    description: 'Smooth, less acidic coffee steeped for 16 hours. Refreshing and full of flavor',
+    price: 4.50,
+    image: 'https://images.unsplash.com/photo-1678174472163-543b1704eb24?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb2xkJTIwYnJldyUyMGNvZmZlZSUyMGJvdHRsZXxlbnwxfHx8fDE3NzAzNzYxMzV8MA&ixlib=rb-4.1.0&q=80&w=1080',
+    category: 'coffee',
+    subcategory: 'cold brew',
+    sizes: [
+      { name: 'Small', price: 4.50 },
+      { name: 'Large', price: 6.00 }
+    ]
+  }
+];
+
+// Tea items
+export const teaItems: MenuItem[] = [
+  // Hot Tea
+  {
+    id: 'tea-1',
+    name: 'English Breakfast Tea',
+    description: 'Classic black tea blend, robust and full-bodied. Perfect way to start your morning',
+    price: 2.75,
+    image: 'https://images.unsplash.com/photo-1627067031145-539ad9c92c92?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxob3QlMjB0ZWElMjBjdXAlMjBzdGVhbXxlbnwxfHx8fDE3NzAzODI4NTR8MA&ixlib=rb-4.1.0&q=80&w=1080',
+    category: 'coffee',
+    subcategory: 'hot tea',
+    sizes: [
+      { name: 'Small', price: 2.75 },
+      { name: 'Medium', price: 3.50 },
+      { name: 'Large', price: 4.25 }
+    ]
+  },
+  {
+    id: 'tea-2',
+    name: 'Green Tea',
+    description: 'Light and refreshing Japanese-style green tea. Rich in antioxidants and subtle flavor',
+    price: 3.00,
+    image: 'https://images.unsplash.com/photo-1524914415733-3eb400768a13?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxncmVlbiUyMHRlYSUyMGhvdCUyMGN1cHxlbnwxfHx8fDE3NzAzODI4NTV8MA&ixlib=rb-4.1.0&q=80&w=1080',
+    category: 'coffee',
+    subcategory: 'hot tea',
+    tag: 'buy again',
+    sizes: [
+      { name: 'Small', price: 3.00 },
+      { name: 'Medium', price: 3.75 },
+      { name: 'Large', price: 4.50 }
+    ]
+  },
+  {
+    id: 'tea-3',
+    name: 'Chamomile Tea',
+    description: 'Soothing herbal tea with delicate floral notes. Perfect for relaxation and unwinding',
+    price: 3.25,
+    image: 'https://images.unsplash.com/photo-1652620386218-37b4e8597eeb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjaGFtb21pbGUlMjB0ZWElMjBmbG93ZXJ8ZW58MXx8fHwxNzcwMzgyODU2fDA&ixlib=rb-4.1.0&q=80&w=1080',
+    category: 'coffee',
+    subcategory: 'hot tea',
+    sizes: [
+      { name: 'Small', price: 3.25 },
+      { name: 'Medium', price: 4.00 },
+      { name: 'Large', price: 4.75 }
+    ]
+  },
+  {
+    id: 'tea-4',
+    name: 'Pandan Tea',
+    description: 'Traditional Filipino tea with fragrant pandan leaves. Sweet aroma and unique Southeast Asian flavor',
+    price: 3.50,
+    image: 'https://images.unsplash.com/photo-1627067031145-539ad9c92c92?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxob3QlMjB0ZWElMjBjdXAlMjBzdGVhbXxlbnwxfHx8fDE3NzAzODI4NTR8MA&ixlib=rb-4.1.0&q=80&w=1080',
+    category: 'coffee',
+    subcategory: 'hot tea',
+    tag: 'weekly offer',
+    sizes: [
+      { name: 'Small', price: 3.50 },
+      { name: 'Medium', price: 4.25 },
+      { name: 'Large', price: 5.00 }
+    ]
+  },
+  {
+    id: 'tea-5',
+    name: 'Ginger Lemon Tea',
+    description: 'Warming ginger tea with a hint of lemon. Soothing and immune-boosting',
+    price: 3.25,
+    image: 'https://images.unsplash.com/photo-1627067031145-539ad9c92c92?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxob3QlMjB0ZWElMjBjdXAlMjBzdGVhbXxlbnwxfHx8fDE3NzAzODI4NTR8MA&ixlib=rb-4.1.0&q=80&w=1080',
+    category: 'coffee',
+    subcategory: 'hot tea',
+    sizes: [
+      { name: 'Small', price: 3.25 },
+      { name: 'Medium', price: 4.00 },
+      { name: 'Large', price: 4.75 }
+    ]
+  },
+  // Iced Tea
+  {
+    id: 'tea-6',
+    name: 'Iced Lemon Tea',
+    description: 'Refreshing black tea with fresh lemon, served over ice. Perfect for hot days!',
+    price: 3.50,
+    image: 'https://images.unsplash.com/photo-1599390720183-fdacb8216b90?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxpY2VkJTIwdGVhJTIwZ2xhc3MlMjBsZW1vbnxlbnwxfHx8fDE3NzAzODI4NTR8MA&ixlib=rb-4.1.0&q=80&w=1080',
+    category: 'coffee',
+    subcategory: 'iced tea',
+    tag: 'buy again',
+    sizes: [
+      { name: 'Small', price: 3.50 },
+      { name: 'Medium', price: 4.25 },
+      { name: 'Large', price: 5.00 }
+    ]
+  },
+  {
+    id: 'tea-7',
+    name: 'Thai Iced Tea',
+    description: 'Sweet and creamy Thai-style tea with condensed milk. Vibrant orange color and rich flavor',
+    price: 4.50,
+    image: 'https://images.unsplash.com/photo-1709003995898-ca69b07a8ef3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0aGFpJTIwaWNlZCUyMHRlYSUyMG9yYW5nZXxlbnwxfHx8fDE3NzAzODI4NTV8MA&ixlib=rb-4.1.0&q=80&w=1080',
+    category: 'coffee',
+    subcategory: 'iced tea',
+    allergens: ['milk'],
+    tag: 'almost sold out',
+    sizes: [
+      { name: 'Small', price: 4.50 },
+      { name: 'Medium', price: 5.25 },
+      { name: 'Large', price: 6.00 }
+    ]
+  },
+  {
+    id: 'tea-8',
+    name: 'Milk Tea (Boba)',
+    description: 'Creamy milk tea with chewy tapioca pearls. Choose from classic, taro, or brown sugar flavor',
+    price: 5.00,
+    image: 'https://images.unsplash.com/photo-1756969953423-2c199c6dbd79?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxidWJibGUlMjB0ZWElMjBib2JhfGVufDF8fHx8MTc3MDM4Mjg1NXww&ixlib=rb-4.1.0&q=80&w=1080',
+    category: 'coffee',
+    subcategory: 'iced tea',
+    allergens: ['milk'],
+    sizes: [
+      { name: 'Small', price: 5.00 },
+      { name: 'Medium', price: 5.75 },
+      { name: 'Large', price: 6.50 }
+    ]
+  },
+  {
+    id: 'tea-9',
+    name: 'Iced Green Tea',
+    description: 'Chilled green tea, lightly sweetened. Light, refreshing, and healthy',
+    price: 3.50,
+    image: 'https://images.unsplash.com/photo-1599390720183-fdacb8216b90?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxpY2VkJTIwdGVhJTIwZ2xhc3MlMjBsZW1vbnxlbnwxfHx8fDE3NzAzODI4NTR8MA&ixlib=rb-4.1.0&q=80&w=1080',
+    category: 'coffee',
+    subcategory: 'iced tea',
+    sizes: [
+      { name: 'Small', price: 3.50 },
+      { name: 'Medium', price: 4.25 },
+      { name: 'Large', price: 5.00 }
+    ]
+  },
+  {
+    id: 'tea-10',
+    name: 'Peach Iced Tea',
+    description: 'Sweet peach-flavored black tea over ice. Fruity and refreshing summer drink',
+    price: 4.00,
+    image: 'https://images.unsplash.com/photo-1599390720183-fdacb8216b90?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxpY2VkJTIwdGVhJTIwZ2xhc3MlMjBsZW1vbnxlbnwxfHx8fDE3NzAzODI4NTR8MA&ixlib=rb-4.1.0&q=80&w=1080',
+    category: 'coffee',
+    subcategory: 'iced tea',
+    sizes: [
+      { name: 'Small', price: 4.00 },
+      { name: 'Medium', price: 4.75 },
+      { name: 'Large', price: 5.50 }
     ]
   }
 ];

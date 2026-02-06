@@ -7,6 +7,7 @@ export interface MenuItem {
   price: number;
   image: string;
   category: 'coffee' | 'bakery' | 'gift';
+  subcategory?: 'hot coffee' | 'iced coffee' | 'cold brew' | 'hot tea' | 'iced tea';
   allergens?: string[];
   sizes?: Array<{ name: string; price: number }>;
   tag?: 'buy again' | 'almost sold out' | 'weekly offer' | 'sold out';

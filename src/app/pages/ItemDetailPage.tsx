@@ -67,7 +67,7 @@ export function ItemDetailPage() {
           <ArrowLeft className="size-6" />
         </button>
         <h1 className="text-xl">
-          {item.category === 'coffee' ? 'Coffee Menu' : item.category === 'bakery' ? 'Bakery Menu' : 'Gift Shop'}
+          {item.category === 'coffee' ? 'Drinks Menu' : item.category === 'bakery' ? 'Bakery Menu' : 'Gift Shop'}
         </h1>
       </div>
 
